@@ -1,4 +1,5 @@
-﻿int num1, num2, num3, mayor,paso;
+try {
+int num1, num2, num3, mayor,paso;
 
 Console.WriteLine("VAMOS A CANCULAR EL MAYOR DE TRES NUMERO ENTEROS ");
 Console.WriteLine("Introduzca el primer número:");
@@ -318,6 +319,10 @@ switch (calificacion)
         Console.WriteLine("Su desempeño es: Deficiente. Debe estudiar más para aprobar el examen.");
         break;
 }
+}
+    catch(Exeption error)
+    {Console.WriteLine(error.Message);}
+
 
 
 
